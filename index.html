@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <script src="js/about_box.js"></script>
     <div id="center-text">
         DANNY'S WEBSITE
     </div>
     <div class="button-container">
-        <button class="button">About</button>
+        <button class="button" onclick="showAbout()">About</button>
         <button class="button">Projects</button>
         <button class="button">Contact</button>
+    </div>
+    <div id="close-div">
+        <div id="about-box">
+            <div class="close-btn">×</div>
+            <h2 style="color: #00ff00;">About</h2>
+            <p style="color: #00ff00;">Blah blah blah</p>
+        </div>
     </div>
 </body>
 </html>
